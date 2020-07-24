@@ -70,9 +70,11 @@ var Dayofweek=function(CC, YY, MM, DD,year){
     }else if (Dayofweek>=6 && gender==="male"){
     var Day="Saturday" 
     var AkanName="Kwame"
-    }else{
+    }else if(Dayofweek>=6 && gender==="female"){
     var Day="Saturday"
     var AkanName="Ama"
+    }else {
+    alert("Please Enter A valid Date To Calculate Your Akan Name Based On The Following Days and Respective Names ")
     }
     alert(Day)
     alert(AkanName)
